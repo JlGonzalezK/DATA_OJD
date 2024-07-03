@@ -27,8 +27,11 @@ Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales
 - Este proyecto tiene como objetivo principal consolidar y compartir los resultados de mi proceso de aprendizaje relativo al uso de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
 - Para ello, he construido un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
 
-## Resultado
+## Resultados
 El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta propuesta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos (si se quiere, bajo la lógica de las metodologías "mixtas"). Es un producto inacabado, hay que agregar los indicadores que sean necesarios y mejorar el diseño de la interfaz; en función de una experiencia de usuario óptima.
+
+[Pulse aquí para ir al informe preliminar (Dashboard de Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
+ 
 
 ## Futuros proyectos
 Mi visión a mediano/largo plazo es la construcción de un Sistema de Información que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población, conectar distintas fuentes de datos, y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
@@ -89,11 +92,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **GitHub:** principalmente para alojar las capas GeoJSON
 - **Microsoft 365:** para publicar informe de Power BI usando una cuenta profesional o educativa (imprescindible).
 
-## Resultados
-[Pulse aquí para ir al informe preliminar (Dashboard de Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
- 
-
-## Procedimiento
+## PROCEDIMIENTO
 ### A. Preparación del Entorno de Trabajo
 
 1. Requisitos de hardware y software:
