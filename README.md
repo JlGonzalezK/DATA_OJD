@@ -105,7 +105,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - Power BI (Sólo Windows)
 
-   - Navegador de internet actualizado (para Mapshaper)
+   - Navegador de internet compatible: recomendados Edge, Google Chrome o Mozilla Firefox.
 
 3. Servicios en línea:
 
