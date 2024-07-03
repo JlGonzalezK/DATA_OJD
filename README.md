@@ -31,7 +31,7 @@ Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales
 El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta herramienta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos. Es un producto inacabado, hay que agregar los indicadores que sean necesarios y mejorar el diseño en función de una experiencia de usuario óptima.
 
 ## Futuros proyectos
-Mi visión a mediano/largo plazo es la construcción de un Sistema de Información Geográfico que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
+Mi visión a mediano/largo plazo es la construcción de un Sistema de Información que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
 
 ## Glosario
 - **CNPV**: Censo Nacional de Población y Vivienda.
