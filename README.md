@@ -1,21 +1,21 @@
 # Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del Censo Nacional de Población y Vivienda 2018 (DANE), Unidad Administrativa Especial de Catastro Distrital (IDECA-UAECD) y Observatorio Javeriano de las Desigualdades (OJD).
 
 <p align="center">
-Jorge Luis González–Castellanos
+Jorge Luis González–Castellanos**
 
 
 <p align="center">
-Estudiante de pregrado en sociología. Universidad Nacional de Colombia – Sede Bogotá
+**Estudiante de pregrado en sociología. Universidad Nacional de Colombia – Sede Bogotá
 </p>
 
 <p align="center">
-Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
+**Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
 </p>
 
 ## Introducción
 Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]) y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos del ejercicio investigativo realizado desde Observatorio Javeriano de Las Desigualdades en dicho territorio.  
 
-Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, que he pensado para ser reproducido por no-especialistas en Tecnologías de la Información y/o estudiantes de ciencias sociales/humanas con algún interés en este tipo de técnicas. Sólo se requiere voluntad para aprender y un conocimiento fundamental en el software empleado que se puede adquirir durante el desarrollo del proceso.
+Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, el cual he pensado para ser reproducido por no-especialistas en Tecnologías de la Información y/o estudiantes de ciencias sociales/humanas con algún interés en este tipo de técnicas. Sólo se requiere voluntad para aprender y un conocimiento fundamental en el software empleado, que bien se puede adquirir durante el desarrollo del proceso.
 
 Si bien se trata de herramientas asequibles y de fácil uso, esto también implica ciertas limitaciones, las cuales espero sortear en mis próximos ejercicios de autoformación, asimismo, contemplar la posibilidad de realizar guías, en formato audiovisual, de todo el ejercicio para facilitar procesos autónomos de aprendizaje.
 
@@ -24,14 +24,14 @@ Es importante mencionar que los datos obtenidos del CNPV 2018 se circunscriben a
 Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de dar un primer paso orientado a proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
 
 ## Objetivos
-- Este proyecto tiene como objetivo principal consolidar y compartir los aprendizajes de mi proceso de aprendizaje relativo al uso de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
+- Este proyecto tiene como objetivo principal consolidar y compartir los resultados de mi proceso de aprendizaje relativo al uso de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
 - Para ello, he construido un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
 
 ## Resultado
-El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta herramienta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos. Es un producto inacabado, hay que agregar los indicadores que sean necesarios y mejorar el diseño en función de una experiencia de usuario óptima.
+El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta propuesta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos (si se quiere, bajo la lógica de las metodologías "mixtas"). Es un producto inacabado, hay que agregar los indicadores que sean necesarios y mejorar el diseño de la interfaz; en función de una experiencia de usuario óptima.
 
 ## Futuros proyectos
-Mi visión a mediano/largo plazo es la construcción de un Sistema de Información que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
+Mi visión a mediano/largo plazo es la construcción de un Sistema de Información que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población, conectar distintas fuentes de datos, y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
 
 ## Glosario
 - **CNPV**: Censo Nacional de Población y Vivienda.
@@ -78,7 +78,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
   - Sector catastral
   - Manzana catastral
 
-### IMPORTANTE: es imprescindible revisar los diccionarios de datos del CNPV 2018, MGN e IDECA
+### IMPORTANTE: es imprescindible estudiar duidadosamente los manuales y diccionarios de datos del CNPV 2018, MGN e IDECA
 
 ## Hosting
 - **GitHub:** principalmente para alojar las capas GeoJSON
@@ -119,7 +119,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 2. Descargar las guías, diccionarios, y los microdatos censales; que para este caso se corresponden a Bogotá.
 
-3. Las capas geográficas incluidas en la dirección de microdatos pueden ser usadas; siendo fundamental la capa de manzanas censales, sin embargo, para facilitar el cruce de datos catastrales, se recomienda revisar versiones más actualizadas y completas en el [geoportal del DANE](https://geoportal.dane.gov.co/)
+3. Las capas geográficas incluidas en la dirección de microdatos pueden ser usadas; siendo fundamental la capa de manzanas censales, **sin embargo**, para facilitar el cruce de datos catastrales, se recomienda **revisar versiones más actualizadas y completas** en el [geoportal del DANE](https://geoportal.dane.gov.co/)
 
 4. Descargar las capas de sectores catastrales, UPZ y manzanas catastrales (para contrastar) desde la página de datos abiertos del [IDECA](https://www.ideca.gov.co/).
 
@@ -168,11 +168,9 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 ### E. Construir el Dashboard en Power BI
 
-1. Incorporar tablas y datos GIS.
+1. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (MGN, VIV, HOG, FALL, PER) como de los datos GIS (GEOCONECTOR, geodatos-Capa_n).
 
-2. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (MGN, VIV, HOG, FALL, PER) como de los datos GIS (GEOCONECTOR, geodatos-Capa_n).
-
-3. Construir el modelo relacional de los datos:
+2. Construir el modelo relacional de los datos:
 
    - **Preparación de los datos:** en las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
 
@@ -180,33 +178,33 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
       - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
 
-         - MGN – VIV: 1 a 1 con llave COD_ENCUESTAS
+         - `MGN – VIV: 1 a 1 con llave COD_ENCUESTAS`
 
-         - VIV – HOG: 1 a muchos con llave LLAVEVIV
+         - `VIV – HOG: 1 a muchos con llave LLAVEVIV`
 
-         - HOG – PER: 1 a muchos con llave LLAVEHOG
+         - `HOG – PER: 1 a muchos con llave LLAVEHOG`
 
-         - HOG – FALL: 1 a muchos con llave LLAVEHOG
+         - `HOG – FALL: 1 a muchos con llave LLAVEHOG`
 
       - Relaciones para conectar con datos geoespaciales:
 
-         - MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave
+         - `MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave`
 
-         - GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo
+         - `GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo`
 
    - **Etiquetado de variables censales:**
  
       - Teniendo en cuenta las limitaciones técnicas de Power BI, especialmente respecto a las visualizaciones disponibles, se pueden establecer etiquetas para los datos censales de la siguiente manera para evitar esfuerzos innecesarios de traducción de datos; lo cual resultaría inviable para aplicar en un conjunto de datos demasiado grande:
 
-         - Crear tablas relacionales (titulo e.g. etiqueta-VARIABLE_n) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la etiqueta codificada en la tabla censal.
+         - Crear tablas relacionales (titulo e.g. etiqueta-VARIABLE_n) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal`.
 
             - Estructura de la tabla (CSV):
               ```
               VARIABLE;VALOR;ETIQUETA_VARIABLE;ETIQUETA_VALOR;ORDEN_VARIABLE
               ```
-            - Relación: etiqueta-VARIABLE_n – TABLA: 1 a muchos
+            - Relación: `etiqueta-VARIABLE_n – TABLA: 1 a muchos`
 
-4. Crear visualizaciones y filtros.
+3. Crear visualizaciones y filtros.
 
 ## Visualización de los Datos y Georreferenciación
 
