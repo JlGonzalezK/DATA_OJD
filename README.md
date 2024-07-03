@@ -45,7 +45,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **.CSV**: extensión para archivo de texto plano que contiene valores separados por comas a manera de tabla.
 - **.XLSX**: extensión de archivo Open XML para hojas de calculo en Excel, formato estándar desde el lanzamiento de Microsoft Office 2007.
 - **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
-- **Mapshaper**: Herramienta en línea para simplificación y edición de datos GIS.
+- **Mapshaper**: Herramienta basada en web para simplificación y edición de datos GIS.
 - **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
 - **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI. 
 
