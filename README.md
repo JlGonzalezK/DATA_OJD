@@ -105,11 +105,11 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - Power BI (Sólo Windows)
 
-   - Navegador de internet compatible: recomendados Edge, Google Chrome o Mozilla Firefox.
+   - Navegador de internet compatible: recomendados Edge, Google Chrome o Mozilla Firefox en sus veriones más recientes.
 
 3. Servicios en línea:
 
-   - Cuenta Microsoft profesional o educativa con licencias (mínimo) Office 365 A1 Plus y Microsoft Fabric (Free)
+   - Cuenta Microsoft profesional o educativa con licencias -mínimo- Office 365 A1 Plus y Microsoft Fabric (Free)
 
    - mapshaper.org
 
