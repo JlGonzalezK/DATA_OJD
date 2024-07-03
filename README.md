@@ -203,9 +203,9 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
          - Crear tablas relacionales (titulo e.g. etiqueta-VARIABLE_n) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal`.
 
-            - Estructura de la tabla (CSV):
+            - Estructura del encabezado de la tabla (CSV):
               ```
-              VARIABLE;VALOR;ETIQUETA_VARIABLE;ETIQUETA_VALOR;ORDEN_VARIABLE
+              COD_VARIABLE;ETIQUETA_VARIABLE;ORDEN_VARIABLE
               ```
             - Relación: `etiqueta-VARIABLE_n – TABLA: 1 a muchos`
 
