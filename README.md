@@ -207,7 +207,8 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
               ```
               COD_VARIABLE;ETIQUETA_VARIABLE;ORDEN_VARIABLE
               ```
-            - Relación: `etiqueta-VARIABLE_n – TABLA: 1 a muchos`
+            - Relación:
+               - `etiqueta-VARIABLE_n – TABLA: 1 a muchos`
 
 3. Crear visualizaciones y filtros.
 
