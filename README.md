@@ -21,7 +21,7 @@ Si bien se trata de herramientas asequibles y de fácil uso, esto también impli
 
 Es importante mencionar que los datos obtenidos del CNPV 2018 se circunscriben al área urbana de la UPZ La Flora, ya que el nivel de desagregación de datos en las áreas rurales relacionadas no es el adecuado para segmentar las poblaciones que potencialmente habitan dichos espacios que, muy probablemente, se componente un máximo de 40 personas; se requiere un proceso adicional para complementar este punto.
 
-Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
+Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de dar un primer paso orientado a proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
 
 ## Objetivos
 - Este proyecto tiene como objetivo principal consolidar y compartir los aprendizajes de mi proceso de aprendizaje relativo al uso de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
