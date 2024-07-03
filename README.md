@@ -1,7 +1,7 @@
 # Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del Censo Nacional de Población y Vivienda 2018 (DANE), Unidad Administrativa Especial de Catastro Distrital (IDECA-UAECD) y Observatorio Javeriano de las Desigualdades (OJD).
 
 <p align="center">
-Jorge Luis González Castellanos
+Jorge Luis González–Castellanos
 
 
 <p align="center">
