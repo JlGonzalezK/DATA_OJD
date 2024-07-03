@@ -28,7 +28,7 @@ Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales
 - Para ello, he desarrollado un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
 
 ## Resultado
-El resultado final de cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta herramienta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos. 
+El resultado final de cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta herramienta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos. Es un producto inacabado, hay que agregar los indicadores que sean necesarios y mejorar el diseño en función de una experiencia de usuario óptima.
 
 ## Futuros proyectos
 Mi visión a mediano plazo es la construcción de un Sistema de Información Geográfico que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población y un modulo para realizar muestreos estadístico. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
