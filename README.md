@@ -240,12 +240,12 @@ Mujeres = CALCULATE(COUNTROWS('PER'),'PER'[P_SEXO]=2)
 
   - Indice de feminidad:
 ```
-Indice fem. = ([Mujeres]/ [Hombres] *100)
+Indice fem. = ([Mujeres] / [Hombres] *100)
 ```
 
   - Indice de hacinamiento:
 ```
-Indice de hacinamiento = SUM(HOG[HA_TOT_PER]) /SUM(HOG[H_NRO_DORMIT])
+Indice de hacinamiento = SUM(HOG[HA_TOT_PER]) / SUM(HOG[H_NRO_DORMIT])
 ```
 
   - Hogares efectivamente censados:
