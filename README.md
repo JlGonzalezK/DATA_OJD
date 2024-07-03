@@ -66,7 +66,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
     - `CNPV2018_1FALL_A2_11` (FALL)*: Datos sobre personas fallecidas.
     - `CNPV2018_1PER_A2_11` (PER)*: Datos sobre personas vivas.
 
-      *(título abreviado sugerido)
+      **NOTA:** *(título abreviado sugerido)
 
 - **Capas del Marco Geoestadístico Nacional (MGN)**:
   - Manzanas censales
