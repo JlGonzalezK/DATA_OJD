@@ -104,7 +104,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 2. Instalación de software:
 
-   - Microsoft Excel 2021
+   - Microsoft Excel 2021 (64 bits)
 
    - QGIS-LTR
 
