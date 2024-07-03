@@ -164,7 +164,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 2. Realizar el mismo proceso con las tablas censales restantes (VIV, HOG, FALL, PER) usando como filtro la consulta resultante del paso anterior (FILTRADO_MGN), salvo que en este paso se debe usar la variable “código de encuestas” para realizar el filtrado.
 
-3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla (se sugiere conservar los títulos de las tablas propuestos para este ejercicio).
+3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla (se sugiere conservar los títulos propuestos para este ejercicio para las 5 tablas resultantes del proceso de extracción desde el CNPV 2018).
 
 ### E. Construir el Dashboard en Power BI
 
