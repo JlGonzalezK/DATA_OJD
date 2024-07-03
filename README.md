@@ -1,0 +1,257 @@
+# Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del Censo Nacional de Población y Vivienda 2018 (DANE), Unidad Administrativa Especial de Catastro Distrital (IDECA-UAECD) y Observatorio Javeriano de las Desigualdades (OJD).
+
+<p align="center">
+Jorge Luis González Castellanos
+
+
+<p align="center">
+Estudiante de pregrado en sociología. Universidad Nacional de Colombia – Sede Bogotá
+</p>
+
+<p align="center">
+Participante del obseervatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
+</p>
+
+## Introducción
+Este proyecto contiene los productos del proceso del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]), y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos de ejercicios investigativos desde Observatorio Javeriano de Las Desigualdades en dicho territorio.  
+
+Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, ya que está destinado en gran medida para ser reproducido por no-especialistas en Tecnologías de la Información y/o estudiantes de ciencias sociales/humanas con algún interés en este tipo de técnicas, y un conocimiento fundamental en el software empleado.
+
+Si bien se trata de herramientas asequibles y de fácil uso, esto también implica ciertas limitaciones, las cuales espero sortear en mis próximos ejercicios de autoformación, asimismo, contemplar la posibilidad de realizar guías, en formato audiovisual, de todo el ejercicio para facilitar procesos autónomos de aprendizaje.
+
+Es importante mencionar que los datos obtenidos del CNPV 2018 se circunscriben al área urbana de la UPZ La Flora, ya que el nivel de desagregación de datos en las áreas rurales relacionadas no es el adecuado para segmentar las poblaciones que potencialmente habitan dichos espacios que, muy probablemente, se componente un máximo de 40 personas; se requiere un proceso adicional para complementar este punto.
+
+Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
+
+## Objetivos
+- Este proyecto tiene como objetivo principal consolidar y compartir los aprendizajes del proceso de investigación de fuentes cuantitativas.
+- Para ello, he desarrollado un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
+
+## Resultado
+El resultado final de cuenta de la viabilidad del proyecto y de las grandes posibilidades de esta herramienta para facilitar el análisis, toma de decisiones y planeación de futuras investigaciones usando datos cuantitativos, incluso cualitativos. 
+
+## Futuros proyectos
+Mi visión a mediano plazo es la construcción de un Sistema de Información Geográfico que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población y un modulo para realizar muestreos estadístico. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
+
+## Glosario
+- **CNPV**: Censo Nacional de Población y Vivienda.
+- **DANE**: Departamento Administrativo Nacional de Estadística.
+- **IDECA-UAECD**: Infraestructura de Datos Espaciales de la Unidad Administrativa Especial de Catastro Distrital (Bogotá).
+- **MGN**: Marco Geoestadístico Nacional.
+- **UPZ**: Unidad de Planeamiento Zonal.
+- **GIS**: Sistema de Información Geográfica.
+- **QGIS**: Software de código abierto para Sistemas de Información Geográfica.
+- **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
+- **Mapshaper**: Herramienta en línea para simplificación y edición de datos GIS.
+- **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
+- **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI. 
+
+## Software Utilizado
+- [QGIS LTR (Prizren)](https://qgis.org)
+- [Mapshaper](https://mapshaper.org/)
+- [Power Query](https://powerquery.microsoft.com/)
+- [Microsoft Excel 2021](https://www.microsoft.com/es-es/microsoft-365/excel)
+- [Microsoft Power BI](https://www.microsoft.com/es/power-platform/products/power-bi) , se puede descargar la [versión de escritorio (sólo para Windows)](https://www.microsoft.com/es-es/download/details.aspx?id=58494)
+- [Icon Map](https://icon-map.com/)
+
+## Fuentes de Datos Utilizadas
+
+### DANE:
+
+- **Microdatos CNPV 2018**: usar los ficheros CSV; estos contienen los datos detallados sobre población y vivienda en un formato adecuado.
+  - **Tablas**:
+    - `CNPV2018_1MGN_A2_11` (MGN): Datos geoestadísticos.
+    - `CNPV2018_1VIV_A2_11` (VIV): Datos a nivel de vivienda.
+    - `CNPV2018_1HOG_A2_11` (HOG): Datos a nivel de hogar.
+    - `CNPV2018_1FALL_A2_11` (FALL): Datos sobre personas fallecidas.
+    - `CNPV2018_1PER_A2_11` (PER): Datos sobre personas vivas.
+
+- **Capas del Marco Geoestadístico Nacional (MGN)**:
+  - Manzanas censales
+  - Sectores urbanos
+  - Secciones urbanas
+
+
+### IDECA-UAECD:
+- **Capas Requeridas**:
+  - UPZ
+  - Sector catastral
+  - Manzana catastral
+
+### IMPORTANTE: es imprescindible revisar los diccionarios de datos del CNPV 2018, MGN e IDECA
+
+## Hosting
+- **GitHub:** principalmente para alojar las capas GeoJSON
+- **Microsoft 365:** para publicar informe de Power BI usando una cuenta profesional o educativa (imprescindible).
+
+## Resultados
+- [Enlace al informe](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
+ 
+
+## Procedimiento
+### A. Preparación del Entorno de Trabajo
+
+1. Requisitos de hardware y software:
+
+   - Sistema operativo: Microsoft Windows 10/11 (64 bits).
+
+   - Hardware mínimo recomendado: 8GB de RAM, CPU Intel i5 (gen8) o AMD Ryzen 5 (gen5), 16GB de almacenamiento libre.
+
+2. Instalación de software:
+
+   - Microsoft Excel 2021
+
+   - QGIS-LTR
+
+   - Power BI (Sólo Windows)
+
+   - Navegador de internet actualizado (para Mapshaper)
+
+3. Servicios en línea:
+
+   - Cuenta Microsoft profesional o educativa con licencias (mínimo) Office 365 A1 Plus y Microsoft Fabric (Free)
+
+   - mapshaper.org
+
+### B. Descarga de los Datos
+
+1. Ir a la página de [Microdatos CNPV 2018 del DANE](https://microdatos.dane.gov.co/index.php/catalog/643/study-description).
+
+2. Descargar las guías, diccionarios, y los microdatos censales; que para este caso se corresponden a Bogotá.
+
+3. Las capas geográficas incluidas en la dirección de microdatos pueden ser usadas; siendo fundamental la capa de manzanas censales, sin embargo, para facilitar el cruce de datos catastrales, se recomienda revisar versiones más actualizadas y completas en el [geoportal del DANE](https://geoportal.dane.gov.co/)
+
+4. Descargar las capas de sectores catastrales, UPZ y manzanas catastrales (para contrastar) desde la página de datos abiertos del [IDECA](https://www.ideca.gov.co/).
+
+### C. Preparar Datos GIS
+
+1. Filtrar áreas geográficas de interés en QGIS teniendo en cuenta las diferencias en la delimitación territorial por parte de las entidades proveedoras de las fuentes de datos.
+
+   - Identificar UPZ
+
+   - Confirmar sectores catastrales dentro del área y hacer lista
+
+   - Seleccionar manzanas censales dentro del área y filtrar
+
+   - Guardar resultados: la lista en .CSV o .XLSX, y los polígonos en formato .SHP
+
+   - **IMPORTANTE:** 
+      - Es imprescindible, al menos en el caso de zonas urbanas, hacer una revisión exhaustiva de la unidad geográfica mínima en común (manzana) para realizar el cruce de fuentes de manera exitosa, ya que puede haber diferencias significativas entre las fuentes disponibles.
+
+      - La capa de manzanas censales del DANE debería contener los datos de área catastral para poder extraer de allí los códigos catastrales y evitar procesos adicionales. Las últimas versiones del MGN traen datos catastrales a nivel de manzana desde donde se pueden extraer los códigos catastrales.
+ 
+2. Crear capas personalizadas (titulo e.g. BARRIOS_OJD).
+
+   - usando las herramientas provistas en QGIS, crear la capa de polígonos que sea pertinente, incluyendo en esta los correspondientes campos de georreferenciación, debidamente codificados, que posibiliten la integración del recurso con el modelo de datos.
+
+3. Construir tabla cruzada para conectar los datos censales y geoespaciales (titulo e.g. GEOCONECTOR):
+
+   - **IMPORTANTE**:
+      - En esta instancia, el campo fundamental es el código de manzana DANE, pues es la delimitación geográfica mínima y relacionable con las encuestas censales, así como con las fuentes catastrales.
+
+   - establecidas las fuentes geográficas, se procede a crear la tabla que contenga los campos de las fuentes necesarias, que se extraerán de las capas resultantes; esto permitirá la conexión de distintas fuentes tanto geográficas como geoestadísticas. 
+  
+   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. geodatos-Capa_n): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
+
+   - Extraer los datos de georreferenciación del área geográfica de interés en un archivo separado por comas o una hoja de cálculo (titulo e.g. filtro_CNPV). Para este caso, la lista de los códigos de manzana seleccionados para la muestra, contenidos en la capa de manzanas del DANE.
+
+4. Convertir capas a formato GeoJSON utilizando Mapshaper.
+
+### D. Preparar Datos del CNPV 2018
+
+ **Con Power Query (desde excel)**
+
+1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (MGN) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (título consulta e.g. FILTRADO_MGN).
+
+2. Realizar el mismo proceso con las tablas censales restantes (VIV, HOG, FALL, PER) usando como filtro la consulta resultante del paso anterior (FILTRADO_MGN), salvo que en este paso se debe usar la variable “código de encuestas” para realizar el filtrado.
+
+3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla (se sugiere conservar los títulos de las tablas propuestos para este ejercicio).
+
+### E. Construir el Dashboard en Power BI
+
+1. Incorporar tablas y datos GIS.
+
+2. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (MGN, VIV, HOG, FALL, PER) como de los datos GIS (GEOCONECTOR, geodatos-Capa_n).
+
+3. Construir el modelo relacional de los datos:
+
+   - **Preparación de los datos:** en las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
+
+      -  Crear llaves: En las tablas MGN, VIV, HOG, PER y FALL se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas FALL y PER se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
+
+      - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
+
+         - MGN – VIV: 1 a 1 con llave COD_ENCUESTAS
+
+         - VIV – HOG: 1 a muchos con llave LLAVEVIV
+
+         - HOG – PER: 1 a muchos con llave LLAVEHOG
+
+         - HOG – FALL: 1 a muchos con llave LLAVEHOG
+
+      - Relaciones para conectar con datos geoespaciales:
+
+         - MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave
+
+         - GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo
+
+   - **Etiquetado de variables censales:**
+ 
+      - Teniendo en cuenta las limitaciones técnicas de Power BI, especialmente respecto a las visualizaciones disponibles, se pueden establecer etiquetas para los datos censales de la siguiente manera para evitar esfuerzos innecesarios de traducción de datos; lo cual resultaría inviable para aplicar en un conjunto de datos demasiado grande:
+
+         - Crear tablas relacionales (titulo e.g. etiqueta_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la etiqueta codificada en la tabla censal.
+
+            - Estructura de la tabla (CSV): VARIABLE;VALOR;ETIQUETA;VALOR_ETIQUETA;ORDEN_VARIABLE
+
+            - Relación: etiqueta_VARIABLE -TABLA: 1 a muchos
+
+4. Crear visualizaciones y filtros.
+
+## Visualización de los Datos y Georreferenciación
+
+Para este paso, debemos asegurarnos de subir las capas ya exportadas a formato GeoJSON al servicio de hosting (GitHub), una vez hecho este paso, podemos continuar con el proceso de visualización de los datos georreferenciados.
+
+Es importante mencionar nuevamente las limitaciones de Power BI con respecto a las capacidades y características de las visualizaciones disponibles, al menos, de manera gratuita, sin embargo, teniendo en cuenta la naturaleza didáctica de este ejercicio, esta herramienta es –por ahora– suficiente.
+
+**Procedimiento**
+
+1. Crear los filtros primarios para hacer las consultas detalladas del dataset censal.
+
+2. Crear las visualizaciones respectivas: podrán funcionar, además, como filtros secundarios de selección.
+
+3. En el informe de Power BI agregamos la visualización Icon Map, (disponible en App Source para usuarios registrados con cuenta educativa o profesional).
+
+   - Desde las opciones de configuración de Icon Map seleccionamos la variable de georreferenciación específica para nuestro propósito, así como la variable de medida, que puede ser la que nos resulte más conveniente.
+
+   - Agregamos la dirección URI del recurso GeoJSON adecuado para la visualización de los datos.
+
+4. Realizamos las pruebas de selección y filtrado respectivas para realizar los ajustes que sean necesarios, que pueden (deberían) requerir la construcción de fórmulas específicas a nuestros requerimientos.
+
+## Fórmulas para Indicadores en Power BI
+
+Microsoft Power BI ofrece una solución para realizar los cálculos requeridos usando la función Medida, con la cual podemos ejecutar formulas directamente en lenguaje DAX según nuestras necesidades.
+
+A continuación, algunos ejemplos de indicadores fundamentales.
+
+  - Conteo de población de mujeres en la muestra:
+```
+Mujeres = CALCULATE(COUNTROWS('PER'),'PER'[P_SEXO]=2)
+```
+
+  - Indice de feminidad:
+```
+Indice fem. = ([Mujeres]/ [Hombres] *100)
+```
+
+  - Indice de hacinamiento:
+```
+Indice de hacinamiento = SUM(HOG[HA_TOT_PER]) /SUM(HOG[H_NRO_DORMIT])
+```
+
+  - Hogares efectivamente censados:
+```
+Total hogares efectivamente censados = (COUNTROWS(DISTINCT(PER[LLAVEHOG])))
+```
+
+## Ajustes estéticos y UX
+Finalmente, hacer los ajustes estéticos y funcionales necesarios para mejorar la experiencia del usuario final.
