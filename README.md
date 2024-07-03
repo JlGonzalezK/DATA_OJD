@@ -9,7 +9,7 @@ Estudiante de pregrado en sociología. Universidad Nacional de Colombia – Sede
 </p>
 
 <p align="center">
-Participante del observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
+Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
 </p>
 
 ## Introducción
