@@ -13,9 +13,9 @@ Participante del obseervatorio Javeriano de las Desigualdades. Pontificia Univer
 </p>
 
 ## Introducción
-Este proyecto contiene los productos del proceso del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]), y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos de ejercicios investigativos desde Observatorio Javeriano de Las Desigualdades en dicho territorio.  
+Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]) y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos del ejercicio investigativo realizado desde Observatorio Javeriano de Las Desigualdades en dicho territorio.  
 
-Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, ya que está destinado en gran medida para ser reproducido por no-especialistas en Tecnologías de la Información y/o estudiantes de ciencias sociales/humanas con algún interés en este tipo de técnicas, y un conocimiento fundamental en el software empleado.
+Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, que he pensado para ser reproducido por no-especialistas en Tecnologías de la Información y/o estudiantes de ciencias sociales/humanas con algún interés en este tipo de técnicas. Sólo se requiere voluntad para aprender y un conocimiento fundamental en el software empleado que se puede adquirir durante el desarrollo del proceso.
 
 Si bien se trata de herramientas asequibles y de fácil uso, esto también implica ciertas limitaciones, las cuales espero sortear en mis próximos ejercicios de autoformación, asimismo, contemplar la posibilidad de realizar guías, en formato audiovisual, de todo el ejercicio para facilitar procesos autónomos de aprendizaje.
 
