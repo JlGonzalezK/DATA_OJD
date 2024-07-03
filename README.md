@@ -93,7 +93,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 1. Requisitos de hardware y software:
 
-   - Sistema operativo: Microsoft Windows 10/11 (64 bits).
+   - Sistema operativo recomendado: Microsoft Windows 10/11 (64 bits).
 
    - Hardware mínimo recomendado: 8GB de RAM, CPU Intel i5 (gen8) o AMD Ryzen 5 (gen5), 16GB de almacenamiento libre.
 
