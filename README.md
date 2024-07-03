@@ -198,13 +198,13 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
  
       - Teniendo en cuenta las limitaciones técnicas de Power BI, especialmente respecto a las visualizaciones disponibles, se pueden establecer etiquetas para los datos censales de la siguiente manera para evitar esfuerzos innecesarios de traducción de datos; lo cual resultaría inviable para aplicar en un conjunto de datos demasiado grande:
 
-         - Crear tablas relacionales (titulo e.g. etiqueta_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la etiqueta codificada en la tabla censal.
+         - Crear tablas relacionales (titulo e.g. etiqueta-VARIABLE_n) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la etiqueta codificada en la tabla censal.
 
             - Estructura de la tabla (CSV):
               ```
               VARIABLE;VALOR;ETIQUETA_VARIABLE;ETIQUETA_VALOR;ORDEN_VARIABLE
               ```
-            - Relación: etiqueta_VARIABLE -TABLA: 1 a muchos
+            - Relación: etiqueta-VARIABLE_n – TABLA: 1 a muchos
 
 4. Crear visualizaciones y filtros.
 
