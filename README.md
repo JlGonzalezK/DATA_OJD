@@ -146,8 +146,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 3. Construir tabla cruzada para conectar los datos censales y geoespaciales (titulo e.g. GEOCONECTOR):
 
-   - **IMPORTANTE**:
-      - En esta instancia, el campo fundamental es el código de manzana DANE, pues es la delimitación geográfica mínima y relacionable con las encuestas censales, así como con las fuentes catastrales.
+**IMPORTANTE**: En esta instancia, el campo fundamental es el código de manzana DANE, pues es la delimitación geográfica mínima y relacionable con las encuestas censales, así como con las fuentes catastrales.
 
    - establecidas las fuentes geográficas, se procede a crear la tabla que contenga los campos de las fuentes necesarias, que se extraerán de las capas resultantes; esto permitirá la conexión de distintas fuentes tanto geográficas como geoestadísticas. 
   
@@ -201,8 +200,10 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
          - Crear tablas relacionales (titulo e.g. etiqueta_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE; estas deben relacionarse en el modelo de datos usando como llave la etiqueta codificada en la tabla censal.
 
-            - Estructura de la tabla (CSV): VARIABLE;VALOR;ETIQUETA;VALOR_ETIQUETA;ORDEN_VARIABLE
-
+            - Estructura de la tabla (CSV):
+              ```
+              VARIABLE;VALOR;ETIQUETA_VARIABLE;ETIQUETA_VALOR;ORDEN_VARIABLE
+              ```
             - Relación: etiqueta_VARIABLE -TABLA: 1 a muchos
 
 4. Crear visualizaciones y filtros.
