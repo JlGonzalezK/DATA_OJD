@@ -41,6 +41,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **UPZ**: Unidad de Planeamiento Zonal.
 - **GIS**: Sistema de Información Geográfica.
 - **QGIS**: Software de código abierto para Sistemas de Información Geográfica.
+- **.SHP**: extensión del formato ESRI Shapefile, usado para almecenar datos vectoriales de orden geográfico y sus respectivos atributos.
 - **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
 - **Mapshaper**: Herramienta en línea para simplificación y edición de datos GIS.
 - **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
@@ -95,9 +96,9 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 1. Requisitos de hardware y software:
 
-   - Sistema operativo recomendado: Microsoft Windows 10/11 (64 bits).
+   - **Sistema operativo recomendado:** Microsoft Windows 10/11 (64 bits).
 
-   - Hardware mínimo recomendado: 8GB de RAM, CPU Intel i5 (gen8) o AMD Ryzen 5 (gen5), 16GB de almacenamiento libre.
+   - **Hardware mínimo recomendado:** 8GB de RAM, CPU Intel i5 (gen8) o AMD Ryzen 5 (gen5), 16GB de almacenamiento libre.
 
 2. Instalación de software:
 
@@ -105,13 +106,13 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - QGIS-LTR
 
-   - Power BI (Sólo Windows)
+   - Power BI **(Sólo Windows)**
 
    - Navegador de internet compatible: recomendados Edge, Google Chrome o Mozilla Firefox en sus veriones más recientes.
 
 3. Servicios en línea:
 
-   - Cuenta Microsoft profesional o educativa con licencias -mínimo- Office 365 A1 Plus y Microsoft Fabric (Free)
+   - **Cuenta Microsoft profesional o educativa con licencias -mínimo- Office 365 A1 Plus y Microsoft Fabric (Free)**
 
    - mapshaper.org
 
@@ -156,7 +157,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - Extraer los datos de georreferenciación del área geográfica de interés en un archivo separado por comas o una hoja de cálculo (titulo e.g. filtro_CNPV). Para este caso, la lista de los códigos de manzana seleccionados para la muestra, contenidos en la capa de manzanas del DANE.
 
-4. Convertir capas a formato GeoJSON utilizando Mapshaper.
+4. Convertir capas a formato GeoJSON utilizando Mapshaper. Elegí esta herramienta al ser la mejor alternativa frente a las limitaciones de QGIS al respecto.
 
 ### D. Preparar Datos del CNPV 2018
 
