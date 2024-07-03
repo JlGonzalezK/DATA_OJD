@@ -24,7 +24,7 @@ Es importante mencionar que los datos obtenidos del CNPV 2018 se circunscriben a
 Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
 
 ## Objetivos
-- Este proyecto tiene como objetivo principal consolidar y compartir los aprendizajes del proceso de investigación de fuentes cuantitativas.
+- Este proyecto tiene como objetivo principal consolidar y compartir los aprendizajes de mi proceso de aprendizaje relativo al usa de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
 - Para ello, he desarrollado un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
 
 ## Resultado
