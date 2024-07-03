@@ -254,4 +254,4 @@ Total hogares efectivamente censados = (COUNTROWS(DISTINCT(PER[LLAVEHOG])))
 ```
 
 ## Ajustes estéticos y UX
-Finalmente, hacer los ajustes estéticos y funcionales necesarios para mejorar la experiencia del usuario final.
+Finalmente, hacer los ajustes estéticos y funcionales necesarios para mejorar la experiencia del usuario final y publicar el dashboard.
