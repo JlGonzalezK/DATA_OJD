@@ -85,7 +85,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **Microsoft 365:** para publicar informe de Power BI usando una cuenta profesional o educativa (imprescindible).
 
 ## Resultados
-- [Enlace al informe](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
+[Pulse aquí para ir al informe preliminar (Dashboard de Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
  
 
 ## Procedimiento
