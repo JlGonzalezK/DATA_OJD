@@ -210,11 +210,11 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
          - Usando la función Especificar datos, crear tablas relacionales (titulo e.g. etiqueta-COD_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE, asimismo, crear un indice para establecer el orden en que serán visualizados los valores; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal (e.g. COD_VARIABLE)`.
 
             - Ejemplo de estructura de la tabla-etiqueta:
-              | COD_VARIABLE | Etiqueta de la variable | ORDEN_VARIABLE |
-              |--------------|-------------------------|----------------|
-              | 1            | Atributo uno            | 0              |
-              | 2            | Atributo dos            | 1              |
-              | 99           | Atributo tres           | 2              |
+              | COD_VARIABLE | Etiqueta de la variable | orden-COD_VARIABLE |
+              |--------------|-------------------------|--------------------|
+              | 1            | Atributo uno            | 0                  |
+              | 2            | Atributo dos            | 1                  |
+              | 99           | Atributo tres           | 2                  |
               
             - Relación:
                - `etiqueta-COD_VARIABLE – TABLA: 1 a muchos`
