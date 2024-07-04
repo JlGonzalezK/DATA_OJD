@@ -207,17 +207,17 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
  
       - Teniendo en cuenta las limitaciones técnicas de Power BI, especialmente respecto a las visualizaciones disponibles, se pueden establecer etiquetas para los datos censales de la siguiente manera para evitar esfuerzos innecesarios de traducción de datos; lo cual resultaría inviable para aplicar en un conjunto de datos demasiado grande:
 
-         - Usando la función Especificar datos, crear tablas relacionales (titulo e.g. etiqueta-VARIABLE_n) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE, asimismo, crear un indice para establecer el orden en que serán visualizados los valores; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal`.
+         - Usando la función Especificar datos, crear tablas relacionales (titulo e.g. etiqueta-COD_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE, asimismo, crear un indice para establecer el orden en que serán visualizados los valores; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal`.
 
             - Ejemplo de estructura de la tabla-etiqueta:
-              | COD_VARIABLE | ETIQUETA_VARIABLE | ORDEN_VARIABLE |
-              |--------------|-------------------|----------------|
-              | 1        | Atributo uno          | 0              |
-              | 2        | Atributo dos          | 1              |
-              | 99       | Atributo tres         | 2              |
+              | COD_VARIABLE | Etiqueta de la variable | ORDEN_VARIABLE |
+              |--------------|-------------------------|----------------|
+              | 1            | Atributo uno            | 0              |
+              | 2            | Atributo dos            | 1              |
+              | 99           | Atributo tres           | 2              |
               
             - Relación:
-               - `etiqueta-VARIABLE_n – TABLA: 1 a muchos`
+               - `etiqueta-COD_VARIABLE – TABLA: 1 a muchos`
 
 3. Crear visualizaciones y filtros.
 
