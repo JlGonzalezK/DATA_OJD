@@ -93,7 +93,7 @@ Mi visi처n a mediano/largo plazo es la construcci처n de un Sistema de Informaci�
 - **GitHub:** principalmente para alojar las capas GeoJSON
 - **Microsoft 365:** para publicar informe de Power BI usando una cuenta profesional o educativa (imprescindible).
 
-## PROCEDIMIENTO
+## Primera Parte: Descarga y preparaci처n de los datos
 ### A. Preparaci처n del Entorno de Trabajo
 
 1. Requisitos de hardware y software:
@@ -215,7 +215,7 @@ Mi visi처n a mediano/largo plazo es la construcci처n de un Sistema de Informaci�
 
 3. Crear visualizaciones y filtros.
 
-## Visualizaci처n de los Datos y Georreferenciaci처n en Power BI
+## Segunda parte: Visualizaci처n de los Datos y Georreferenciaci처n en Power BI
 
 Para este paso, debemos asegurarnos de subir las capas ya exportadas a formato GeoJSON al servicio de hosting (GitHub), una vez hecho este paso, podemos continuar con el proceso de visualizaci처n de los datos georreferenciados.
 
