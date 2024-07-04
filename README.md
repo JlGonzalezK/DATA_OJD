@@ -185,26 +185,23 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
       -  Crear llaves: En las tablas MGN, VIV, HOG, PER y FALL se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas FALL y PER se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
     
          - Ejemplo de sentencia en tabla MGN (DAX):
-         ```
-         LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
-         ```
+          ```
+          LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
+          ```
          
-LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
-      - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
+   - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
+      - `MGN – VIV: 1 a 1 con llave COD_ENCUESTAS`
 
-         - `MGN – VIV: 1 a 1 con llave COD_ENCUESTAS`
+      - `VIV – HOG: 1 a muchos con llave LLAVEVIV`
+ 
+      - `HOG – PER: 1 a muchos con llave LLAVEHOG`
 
-         - `VIV – HOG: 1 a muchos con llave LLAVEVIV`
-
-         - `HOG – PER: 1 a muchos con llave LLAVEHOG`
-
-         - `HOG – FALL: 1 a muchos con llave LLAVEHOG`
-
-      - Relaciones para conectar con datos geoespaciales:
-
-         - `MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave`
-
-         - `GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo`
+      - `HOG – FALL: 1 a muchos con llave LLAVEHOG`
+         
+   - Relaciones para conectar con datos geoespaciales:
+      - `MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave`
+      
+      - `GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo`
 
    - **Etiquetado de variables censales:**
  
