@@ -51,6 +51,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **Mapshaper**: Herramienta basada en web para simplificación y edición de datos GIS.
 - **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
 - **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI.
+- **DAX**: Acrónimo de Data Analysis Expressions, lenguaje de expresión de fórmulas y consultas desarrollado por Microsoft.
 - **UX**: Experiencia de usuario
 
 ## Software Utilizado
@@ -182,7 +183,13 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
    - **Preparación de los datos:** en las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
 
       -  Crear llaves: En las tablas MGN, VIV, HOG, PER y FALL se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas FALL y PER se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
-
+    
+         - Ejemplo de sentencia en tabla MGN (DAX):
+         ```
+         LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
+         ```
+         
+LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
       - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
 
          - `MGN – VIV: 1 a 1 con llave COD_ENCUESTAS`
