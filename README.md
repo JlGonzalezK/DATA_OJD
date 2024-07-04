@@ -50,7 +50,8 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
 - **Mapshaper**: Herramienta basada en web para simplificación y edición de datos GIS.
 - **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
-- **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI. 
+- **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI.
+- **UX**: Experiencia de usuario
 
 ## Software Utilizado
 - [QGIS LTR (Prizren)](https://qgis.org)
