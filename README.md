@@ -211,10 +211,10 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
             - Ejemplo de estructura de la tabla-etiqueta:
               | COD_VARIABLE | Etiqueta de la variable | orden-COD_VARIABLE |
-              |--------------|-------------------------|--------------------|
-              | 1            | Atributo uno            | 0                  |
-              | 2            | Atributo dos            | 1                  |
-              | 99           | Atributo tres           | 2                  |
+              |:------------:|:-----------------------:|:------------------:|
+              |       1      |       Atributo uno      |         0          |
+              |       2      |       Atributo dos      |         1          |
+              |      99      |      Atributo tres      |         2          |
               
             - Relación:
                - `etiqueta-COD_VARIABLE – TABLA: 1 a muchos`
