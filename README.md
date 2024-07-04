@@ -217,7 +217,7 @@ Mi visi처n a mediano/largo plazo es la construcci처n de un Sistema de Informaci�
 
 3. Crear visualizaciones y filtros.
 
-## Segunda parte: Visualizaci처n de los Datos y Georreferenciaci처n en Power BI
+## Segunda Parte: Visualizaci처n de los Datos y Georreferenciaci처n en Power BI
 
 Para este paso, debemos asegurarnos de subir las capas ya exportadas a formato GeoJSON al servicio de hosting (GitHub), una vez hecho este paso, podemos continuar con el proceso de visualizaci처n de los datos georreferenciados.
 
