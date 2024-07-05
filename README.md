@@ -1,4 +1,4 @@
-# Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del Censo Nacional de Población y Vivienda 2018 (DANE), Unidad Administrativa Especial de Catastro Distrital (IDECA-UAECD) y Observatorio Javeriano de las Desigualdades (OJD).
+# Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del DANE, IDECA-UAECD y OJD
 
 <p align="center">
 Jorge Luis González–Castellanos**
@@ -13,7 +13,7 @@ Jorge Luis González–Castellanos**
 </p>
 
 ## Introducción
-Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]) y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos del ejercicio investigativo realizado desde Observatorio Javeriano de Las Desigualdades en dicho territorio.  
+Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 (CNPV 2018 [DANE]) y datos catastrales provistos por la Infraestructura de Datos Espaciales (IDECA-UAECD) para la UPZ 52 (La Flora) en la ciudad de Bogotá, así como con datos obtenidos del ejercicio investigativo realizado desde Observatorio Javeriano de Las Desigualdades (OJD) en dicho territorio.  
 
 Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, el cual he pensado para ser reproducido por no-especialistas en Tecnologías de la Información, con algún interés en este tipo de técnicas, y en el análisis de datos sociales. Sólo se requiere de voluntad para aprender y un conocimiento fundamental en el software empleado, que bien se puede adquirir durante el desarrollo del proceso.
 
@@ -25,6 +25,7 @@ Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales
 
 ## Objetivos
 - Este proyecto tiene como objetivo principal consolidar y compartir los resultados de mi proceso de aprendizaje relativo al uso de técnicas para la extracción, implementación y análisis de fuentes cuantitativas.
+
 - Para ello, he construido un dashboard interactivo con Power BI utilizando datos georreferenciados de diversas fuentes para probar el concepto.
 
 ## Resultados
@@ -37,6 +38,7 @@ El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes
 Mi visión a mediano/largo plazo es la construcción de un Sistema de Información a nivel nacional que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población, conectar distintas fuentes de datos, y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
 
 ## Glosario
+- **OJD**: Observatorio Javeriano de las Desigualdades.
 - **CNPV**: Censo Nacional de Población y Vivienda.
 - **DANE**: Departamento Administrativo Nacional de Estadística.
 - **IDECA-UAECD**: Infraestructura de Datos Espaciales de la Unidad Administrativa Especial de Catastro Distrital (Bogotá).
