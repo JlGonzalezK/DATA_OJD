@@ -66,7 +66,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 ### DANE:
 
-- **Microdatos CNPV 2018**: usar los ficheros CSV; estos contienen los datos detallados sobre población y vivienda en un formato adecuado.
+- **Microdatos CNPV 2018 (Bogotá)**: usar los ficheros CSV; estos contienen los datos detallados sobre población y vivienda en un formato adecuado.
   - **Tablas**:
     - `CNPV2018_1MGN_A2_11` (MGN)*: Datos geoestadísticos.
     - `CNPV2018_1VIV_A2_11` (VIV)*: Datos a nivel de vivienda.
@@ -184,16 +184,16 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 2. Construir el modelo relacional de los datos:
 
-   - **Preparación de los datos:** en las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
+   - **Preparación de los datos:** En las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
 
-      -  Crear llaves: En las tablas `MGN`, `VIV`, `HOG`, `PER` y `FALL` se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas `FALL` y `PER` se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
+      -  Crear llaves: Conforme a lo indicado por el DANE, en las tablas `MGN`, `VIV`, `HOG`, `PER` y `FALL` se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas `FALL` y `PER` se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
     
          - Ejemplo de sentencia en tabla `MGN` (DAX):
           ```
           LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
           ```
          
-   - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
+   - Relaciones entre tablas del CNPV 2018: Basado en las indicaciones del DANE, se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
       - `MGN` – `VIV`: 1 a 1 con llave COD_ENCUESTAS
 
       - `VIV` – `HOG`: 1 a muchos con llave LLAVEVIV
