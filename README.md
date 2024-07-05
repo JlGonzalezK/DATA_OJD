@@ -172,7 +172,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
  **Con Power Query (desde excel)**
 
-1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (`MGN`) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (**esta consulta será la versión filtrada de `MGN`, fundamental para el modelo de datos**).
+1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (`MGN`) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (**el resultado esta consulta será la versión filtrada de `MGN`, fundamental para el modelo de datos**).
 
 2. Realizar el mismo proceso con las tablas censales restantes (`VIV`, `HOG`, `FALL`, `PER`) usando como filtro la consulta resultante del paso anterior (version filtrada de `MGN`), salvo que en este paso se debe usar la variable “código de encuestas” para realizar el filtrado.
 
