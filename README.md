@@ -5,11 +5,11 @@ Jorge Luis González–Castellanos**
 
 
 <p align="center">
-**Estudiante de pregrado en sociología. Universidad Nacional de Colombia – Sede Bogotá
+**Estudiante de pregrado en sociología. Universidad Nacional de Colombia, Sede Bogotá
 </p>
 
 <p align="center">
-**Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana - Bogotá
+**Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá
 </p>
 
 ## Introducción
