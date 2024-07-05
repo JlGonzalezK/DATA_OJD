@@ -47,11 +47,14 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **GIS**: Sistema de Información Geográfica.
 - **QGIS**: Software de código abierto para Sistemas de Información Geográfica.
 - **.SHP**: extensión del formato ESRI Shapefile, usado para almacenar datos vectoriales de orden geográfico y sus respectivos atributos.
-- **.CSV**: extensión para archivo de texto plano que contiene valores separados por comas a manera de tabla.
-- **.XLSX**: extensión de archivo Open XML para hojas de calculo en Excel, formato estándar desde el lanzamiento de Microsoft Office 2007.
 - **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
 - **Mapshaper**: Herramienta basada en web para simplificación y edición de datos GIS.
-- **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft.
+- **.CSV**: extensión para archivo de texto plano que contiene valores separados por comas a manera de tabla.
+- **Microsoft Office**: paquete de ofimática propiedad de Microsoft Corporation.
+- **Microsoft 365**: Familia de productos de Microsoft basados en la nube.
+- **Microsoft Excel**: Software popular para trabajar con hojas de cálculo, distribuido como parte de Microsoft Office, por separado y como servicio en línea.
+- **.XLSX**: extensión de archivo Open XML para hojas de calculo, nativo del Sotfware Microsoft Excel desde su versión 2007. Es un estándar de facto en la industria del Software de Ofimática.
+- **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft, distribuida gratuitamente como aplicación de escritorio para sistemas Microsoft Windows y como servicio en línea.
 - **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI.
 - **DAX**: Acrónimo de Data Analysis Expressions, lenguaje de expresión de fórmulas y consultas desarrollado por Microsoft.
 - **UX**: Experiencia de usuario
@@ -170,7 +173,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 ### D. Preparar Datos del CNPV 2018
 
- **Con Power Query (desde excel)**
+ **Con Power Query (desde Microsoft Excel)**
 
 1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (`MGN`) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (**el resultado esta consulta será la versión filtrada de `MGN`, fundamental para el modelo de datos**).
 
