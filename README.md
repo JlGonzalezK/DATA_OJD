@@ -19,7 +19,7 @@ Para el ejercicio se emplearon múltiples herramientas de software elegidas por 
 
 Si bien se trata de herramientas asequibles y de fácil uso, esto también implica ciertas limitaciones, las cuales espero sortear en mis próximos ejercicios de autoformación, asimismo, contemplar la posibilidad de realizar guías, en formato audiovisual, de todo el ejercicio para facilitar procesos autónomos de aprendizaje.
 
-Es importante mencionar que los datos obtenidos del Censo **se circunscriben al área urbana de la UPZ La Flora**, ya que el nivel de desagregación de datos en las áreas rurales relacionadas no es el adecuado para segmentar las poblaciones que potencialmente habitan dichos espacios que, muy probablemente, se componen de un máximo de 40 personas; se requiere de un riguroso proceso adicional para complementar y validar este punto.
+Es importante mencionar que los datos obtenidos del Censo **se circunscriben al área urbana de la UPZ La Flora**, ya que el nivel de desagregación de datos, en las áreas rurales contenidas en dicha delimitación territorial, no es el adecuado para segmentar las poblaciones que potencialmente habitan dichos espacios que, muy probablemente, se componen de un aproximado de 50 personas; se requiere de un riguroso proceso adicional para complementar y validar este punto.
 
 Me enfoco en el Censo Nacional de Población y Vivienda 2018 y datos catastrales de Bogotá, con el fin de dar un primer paso orientado a proporcionar una herramienta útil para el análisis socioeconómico y territorial que pueda integrar múltiples fuentes de datos; la cual debe seguir siendo mejorada, y debe ser escalada a otras áreas geográficas, con arreglo –al menos– a las necesidades del Observatorio.
 
