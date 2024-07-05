@@ -46,7 +46,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **UPZ**: Unidad de Planeamiento Zonal.
 - **GIS**: Sistema de Información Geográfica.
 - **QGIS**: Software de código abierto para Sistemas de Información Geográfica.
-- **.SHP**: extensión del formato ESRI Shapefile, usado para almacenar datos vectoriales de orden geográfico y sus respectivos atributos.
+- **.SHP**: extensión del formato ESRI Shapefile, estándar de facto en GIS usado para almacenar datos vectoriales de orden geográfico y sus respectivos atributos.
 - **GeoJSON**: Formato de codificación de datos geoespaciales basado en JSON.
 - **Mapshaper**: Herramienta basada en web para simplificación y edición de datos GIS.
 - **.CSV**: extensión para archivo de texto plano que contiene valores separados por comas a manera de tabla.
