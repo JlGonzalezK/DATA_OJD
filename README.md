@@ -52,7 +52,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 - **.CSV**: extensión para archivo de texto plano que contiene valores separados por comas a manera de tabla.
 - **Microsoft Office**: paquete de ofimática propiedad de Microsoft Corporation.
 - **Microsoft 365**: Familia de productos de Microsoft basados en la nube.
-- **Microsoft Excel**: Software popular para trabajar con hojas de cálculo, distribuido como parte de Microsoft Office, por separado y como servicio en línea.
+- **Microsoft Excel**: Software popular para trabajar con hojas de cálculo, distribuido como parte de Microsoft Office, por separado (standalone) y como servicio en línea.
 - **.XLSX**: extensión de archivo Open XML para hojas de calculo, nativo del Sotfware Microsoft Excel desde su versión 2007. Es un estándar de facto en la industria del Software de Ofimática.
 - **Power BI**: Herramienta de análisis de datos y visualización desarrollada por Microsoft, distribuida gratuitamente como aplicación de escritorio para sistemas Microsoft Windows y como servicio en línea.
 - **Power Query**: Motor de transformación y preparación de datos incluido en Excel y Power BI.
