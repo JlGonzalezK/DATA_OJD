@@ -40,7 +40,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 ## Glosario
 - **OJD**: Observatorio Javeriano de las Desigualdades.
 - **CNPV**: Censo Nacional de Población y Vivienda.
-- **DANE**: Departamento Administrativo Nacional de Estadística.
+- **DANE**: Departamento Administrativo Nacional de Estadística (República de Colombia).
 - **IDECA-UAECD**: Infraestructura de Datos Espaciales de la Unidad Administrativa Especial de Catastro Distrital (Bogotá).
 - **MGN**: Marco Geoestadístico Nacional.
 - **UPZ**: Unidad de Planeamiento Zonal.
