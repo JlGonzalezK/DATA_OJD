@@ -193,7 +193,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
           LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
           ```
          
-   - Relaciones entre tablas del CNPV 2018: Basado en las indicaciones del DANE, se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
+   - **Relaciones entre tablas del CNPV 2018:** Basado en las indicaciones del DANE, se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
       - `MGN` – `VIV`: 1 a 1 con llave COD_ENCUESTAS
 
       - `VIV` – `HOG`: 1 a muchos con llave LLAVEVIV
@@ -202,7 +202,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
       - `HOG` – `FALL`: 1 a muchos con llave LLAVEHOG
          
-   - Relaciones para conectar con datos geoespaciales:
+   - **Relaciones para conectar con datos geoespaciales:**
       - `MGN` – `GEOCONECTOR`: muchos a uno usando la variable de código de manzana como llave
       
       - `GEOCONECTOR` – `geodatos[capa_x]`: muchos a uno usando como llave el nivel de agregación geográfico respectivo
