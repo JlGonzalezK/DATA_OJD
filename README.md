@@ -34,7 +34,7 @@ El resultado preliminar da cuenta de la viabilidad del proyecto y de las grandes
  
 
 ## Futuros proyectos
-Mi visión a mediano/largo plazo es la construcción de un Sistema de Información que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población, conectar distintas fuentes de datos, y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
+Mi visión a mediano/largo plazo es la construcción de un Sistema de Información a nivel nacional que contará con varias funcionalidades, entre ellas la capacidad de realizar proyecciones de población, conectar distintas fuentes de datos, y un modulo para realizar muestreos estadísticos. Esto con arreglo a facilitar futuras tareas de investigación y propiciar el aprendizaje autónomo.
 
 ## Glosario
 - **CNPV**: Censo Nacional de Población y Vivienda.
@@ -150,13 +150,13 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - usando las herramientas provistas en QGIS, crear la capa de polígonos que sea pertinente, incluyendo en esta los correspondientes campos de georreferenciación, debidamente codificados, que posibiliten la integración del recurso con el modelo de datos.
 
-3. Construir tabla cruzada para conectar los datos censales y geoespaciales (titulo e.g. GEOCONECTOR):
+3. Construir tabla cruzada para conectar los datos censales y geoespaciales (titulo e.g. `GEOCONECTOR`):
 
 **IMPORTANTE**: En esta instancia, el campo fundamental es el código de manzana DANE, pues es la delimitación geográfica mínima y relacionable con las encuestas censales, así como con las fuentes catastrales.
 
    - establecidas las fuentes geográficas, se procede a crear la tabla que contenga los campos de las fuentes necesarias, que se extraerán de las capas resultantes; esto permitirá la conexión de distintas fuentes tanto geográficas como geoestadísticas. 
   
-   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. geodatos-Capa_n): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
+   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. `geodatos-Capa_x`): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
 
    - Extraer los datos de georreferenciación del área geográfica de interés en un archivo separado por comas o una hoja de cálculo (titulo e.g. filtro_CNPV). Para este caso, la lista de los códigos de manzana seleccionados para la muestra, contenidos en la capa de manzanas del DANE.
 
@@ -166,48 +166,48 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
  **Con Power Query (desde excel)**
 
-1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (MGN) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (título consulta e.g. FILTRADO_MGN).
+1. Extraer del censo los datos del área geográfica previamente delimitada: se usará como filtro el listado de códigos de área censal obtenidos en el paso anterior (filtro_CNPV); hacer una consulta combinada entre este y el conjunto de datos contenido en la tabla de georreferenciación del censo (`MGN`) con base en la intersección resultante entre ambas, teniendo como campo común el código de manzana censal para la selección (**esta consulta será la versión filtrada de `MGN`, fundamental para el modelo de datos**).
 
-2. Realizar el mismo proceso con las tablas censales restantes (VIV, HOG, FALL, PER) usando como filtro la consulta resultante del paso anterior (FILTRADO_MGN), salvo que en este paso se debe usar la variable “código de encuestas” para realizar el filtrado.
+2. Realizar el mismo proceso con las tablas censales restantes (`VIV`, `HOG`, `FALL`, `PER`) usando como filtro la consulta resultante del paso anterior (version filtrada de `MGN`), salvo que en este paso se debe usar la variable “código de encuestas” para realizar el filtrado.
 
-3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla
+3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla.
    - se sugiere conservar los títulos sugeridos en este ejercicio para las 5 tablas resultantes del proceso de extracción desde el CNPV 2018.
    - Ver ejemplos de resultados en el [directorio de fuentes para este proyecto](https://github.com/JlGonzalezK/DATA_OJD/tree/main/sources).
 
 ### E. Construir el Dashboard en Power BI
 
-1. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (MGN, VIV, HOG, FALL, PER) como de los datos GIS (GEOCONECTOR, geodatos-Capa_n).
+1. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (`MGN`, `VIV`, `HOG`, `FALL`, `PER`) como de los datos GIS (`GEOCONECTOR`, `geodatos-Capa_x`).
 
 2. Construir el modelo relacional de los datos:
 
    - **Preparación de los datos:** en las tablas resultantes del CNPV 2018 se deben crear las variables llave para realizar la conexión entre estas de manera correcta, y así poder hacer los cruces de datos que sean pertinentes entre sí.
 
-      -  Crear llaves: En las tablas MGN, VIV, HOG, PER y FALL se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas FALL y PER se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
+      -  Crear llaves: En las tablas `MGN`, `VIV`, `HOG`, `PER` y `FALL` se debe crear el campo LLAVEVIV, concatenando las variables COD_ENCUESTAS y U_VIVIENDA contenidas en cada tabla, asimismo, en las tablas `FALL` y `PER` se debe crear el campo LLAVEHOG concatenando COD_ENCUESTAS, U_VIVIENDA y H_NRHOG.
     
-         - Ejemplo de sentencia en tabla MGN (DAX):
+         - Ejemplo de sentencia en tabla `MGN` (DAX):
           ```
           LLAVEVIV = MGN[COD_ENCUESTAS] & MGN[U_VIVIENDA]
           ```
          
    - Relaciones entre tablas del CNPV 2018: Se pueden establecer las cardinalidades entre las tablas de la siguiente manera:
-      - `MGN – VIV: 1 a 1 con llave COD_ENCUESTAS`
+      - `MGN` – `VIV`: 1 a 1 con llave COD_ENCUESTAS
 
-      - `VIV – HOG: 1 a muchos con llave LLAVEVIV`
+      - `VIV` – `HOG`: 1 a muchos con llave LLAVEVIV
  
-      - `HOG – PER: 1 a muchos con llave LLAVEHOG`
+      - `HOG` – `PER`: 1 a muchos con llave LLAVEHOG
 
-      - `HOG – FALL: 1 a muchos con llave LLAVEHOG`
+      - `HOG` – `FALL`: 1 a muchos con llave LLAVEHOG
          
    - Relaciones para conectar con datos geoespaciales:
-      - `MGN – GEOCONECTOR: muchos a uno usando la variable de código de manzana como llave`
+      - `MGN` – `GEOCONECTOR`: muchos a uno usando la variable de código de manzana como llave
       
-      - `GEOCONECTOR – geodatos[capa_n]: muchos a uno usando como llave el nivel de agregación geográfico respectivo`
+      - `GEOCONECTOR` – `geodatos[capa_x]`: muchos a uno usando como llave el nivel de agregación geográfico respectivo
 
    - **Etiquetado de variables censales:**
  
       - Teniendo en cuenta las limitaciones técnicas de Power BI, especialmente respecto a las visualizaciones disponibles, se pueden establecer etiquetas para los datos censales de la siguiente manera para evitar esfuerzos innecesarios de traducción de datos; lo cual resultaría inviable para aplicar en un conjunto de datos demasiado grande:
 
-         - Usando la función Especificar datos, crear tablas relacionales (titulo e.g. etiqueta-COD_VARIABLE) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE, asimismo, crear un indice para establecer el orden en que serán visualizados los valores; estas deben relacionarse en el modelo de datos usando como llave la `etiqueta codificada en la tabla censal (e.g. COD_VARIABLE)`.
+         - Usando la función Especificar datos, crear tablas relacionales (titulo e.g. `etiqueta-COD_VARIABLE`) con los respectivos valores de una determinada variable censal en combinación con sus etiquetas, las cuales se encuentran disponibles en el diccionario de datos provisto por el DANE, asimismo, crear un indice para establecer el orden en que serán visualizados los valores; estas deben relacionarse en el modelo de datos **usando como llave la etiqueta codificada en la tabla censal (e.g. `COD_VARIABLE`)**.
 
             - Ejemplo de estructura de la tabla-etiqueta:
               | COD_VARIABLE | Etiqueta de la variable | orden-COD_VARIABLE |
@@ -217,7 +217,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
               |      99      |      Atributo tres      |         2          |
               
             - Relación:
-               - `etiqueta-COD_VARIABLE – TABLA: 1 a muchos`
+               - `etiqueta-COD_VARIABLE` – `TABLA_CNPV`: 1 a muchos
 
 3. Crear visualizaciones y filtros.
 
