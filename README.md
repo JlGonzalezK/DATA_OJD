@@ -153,7 +153,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
    - **IMPORTANTE:** 
       - **Ejercicio de contraste:** Es imprescindible, al menos en el caso de zonas urbanas, hacer una revisión exhaustiva de la unidad geográfica mínima en común (manzana) para realizar el cruce de fuentes de manera exitosa, ya que puede haber diferencias significativas –al menos– de forma entre las fuentes disponibles.
 
-      - La capa de manzanas censales del DANE debería contener los **datos de área catastral** para poder extraer de allí los **códigos de sector catastral** y evitar procesos adicionales. Las últimas versiones del MGN traen datos catastrales a nivel de manzana desde donde se pueden extraer los **códigos de sector catastral**.
+      - La capa de manzanas censales del DANE debería contener los **datos de área catastral** para poder extraer de allí los **códigos de sector catastral** y evitar procesos adicionales, orientados a relacionar la capa resultante con los datos de la UAECD. Las últimas versiones del MGN traen datos catastrales a nivel de manzana desde donde se pueden extraer los **códigos de sector catastral**.
  
 2. Crear capas personalizadas (titulo e.g. BARRIOS_OJD).
 
