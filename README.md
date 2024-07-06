@@ -13,7 +13,7 @@ Jorge Luis González–Castellanos**
 </p>
 
 ## Introducción
-Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 publicado por Departamento Administrativo Nacional de Estadística y datos catastrales provistos por la Infraestructura de Datos Espaciales de la Unidad Administrativa Especial de Catastro Distrital para la Unidad de Planeción Zonal número 52 (UPZ La Flora) en la ciudad de Bogotá, capital de la República de Colombia, así como con datos obtenidos del ejercicio investigativo realizado desde el Observatorio Javeriano de Las Desigualdades en dicho territorio.  
+Este proyecto contiene los resultados del estudio, cruce, análisis y extracción de datos del Censo Nacional de Población y Vivienda 2018 publicado por Departamento Administrativo Nacional de Estadística y datos catastrales provistos por la Infraestructura de Datos Espaciales de la Unidad Administrativa Especial de Catastro Distrital, ambos conjuntos de naturaleza abierta, correspondientes a la Unidad de Planeción Zonal número 52 (UPZ La Flora) en la ciudad de Bogotá, capital de la República de Colombia, así como con datos obtenidos del ejercicio investigativo realizado desde el Observatorio Javeriano de Las Desigualdades en dicho territorio.  
 
 Para el ejercicio se emplearon múltiples herramientas de software elegidas por su favorable curva de aprendizaje, el cual he pensado para ser reproducido por no-especialistas en Tecnologías de la Información, con algún interés en este tipo de técnicas, y en el análisis de datos sociales. Sólo se requiere de voluntad para aprender y un conocimiento fundamental en el software empleado, que bien se puede adquirir durante el desarrollo del proceso.
 
