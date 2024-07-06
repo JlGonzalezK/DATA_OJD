@@ -165,7 +165,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - establecidas las fuentes geográficas, se procede a crear la tabla que contenga los campos de las fuentes necesarias, que se extraerán de las capas resultantes; esto permitirá la conexión de distintas fuentes tanto geográficas como geoestadísticas. 
   
-   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. `geodatos-capa_x`): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
+   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territoriales en cuestión (titulo e.g. `geodatos-capa_x`): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
 
    - Extraer los datos de georreferenciación del área geográfica de interés en un archivo separado por comas o una hoja de cálculo (titulo e.g. filtro_CNPV). Para este caso, la lista de los códigos de manzana seleccionados para la muestra, contenidos en la capa de manzanas del DANE.
 
