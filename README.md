@@ -182,7 +182,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 3. Guardar los resultados de la consulta en una nueva hoja de cálculo o en archivos separados por comas para cada tabla.
    - se sugiere conservar los títulos sugeridos en este ejercicio para las 5 tablas resultantes del proceso de extracción desde el CNPV 2018.
 
-**RECOMENDACIÓN:** Ver ejemplos de los resultados del proceso hasta el momento en el [directorio de fuentes para este proyecto](https://github.com/JlGonzalezK/DATA_OJD/tree/main/sources).
+**RECOMENDACIÓN:** Ver ejemplos de los resultados del proceso hasta este punto en el [directorio de fuentes para este proyecto](https://github.com/JlGonzalezK/DATA_OJD/tree/main/sources).
 
 ### E. Construir el Dashboard en Power BI
 
