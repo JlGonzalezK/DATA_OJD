@@ -165,7 +165,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - establecidas las fuentes geográficas, se procede a crear la tabla que contenga los campos de las fuentes necesarias, que se extraerán de las capas resultantes; esto permitirá la conexión de distintas fuentes tanto geográficas como geoestadísticas. 
   
-   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. `geodatos-Capa_x`): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
+   - Construir tablas adicionales por fuente geográfica con los datos físicos de las delimitaciones territorial en cuestión (titulo e.g. `geodatos-capa_x`): incluir los campos que contengan datos fundamentales como el área, además de las variables llave para conectar con su respectiva fuente; si es necesario, incluir coordenadas geográficas del centroide de los polígonos dependiendo de las necesidades y requerimientos (e.g. para crear “heatmaps” a nivel de manzana).
 
    - Extraer los datos de georreferenciación del área geográfica de interés en un archivo separado por comas o una hoja de cálculo (titulo e.g. filtro_CNPV). Para este caso, la lista de los códigos de manzana seleccionados para la muestra, contenidos en la capa de manzanas del DANE.
 
@@ -185,7 +185,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
 ### E. Construir el Dashboard en Power BI
 
-1. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (`MGN`, `VIV`, `HOG`, `FALL`, `PER`) como de los datos GIS (`GEOCONECTOR`, `geodatos-Capa_x`).
+1. Incorporar en un nuevo informe las tablas obtenidas, tanto de los datos censales filtrados (`MGN`, `VIV`, `HOG`, `FALL`, `PER`) como de los datos GIS (`GEOCONECTOR`, `geodatos-capa_x`).
 
 2. Construir el modelo relacional de los datos:
 
@@ -210,7 +210,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
    - **Relaciones para conectar con datos geoespaciales:**
       - `MGN` – `GEOCONECTOR`: muchos a uno usando la variable de código de manzana como llave
       
-      - `GEOCONECTOR` – `geodatos[capa_x]`: muchos a uno usando como llave el nivel de agregación geográfico respectivo
+      - `GEOCONECTOR` – `geodatos-capa_x`: muchos a uno usando como llave el nivel de agregación geográfico respectivo
 
    - **Etiquetado de variables censales:**
  
