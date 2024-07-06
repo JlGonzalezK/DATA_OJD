@@ -146,7 +146,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - Confirmar sectores catastrales dentro del área y hacer lista
 
-   - Seleccionar manzanas censales dentro del área y filtrar
+   - Seleccionar manzanas censales y otros polígonos de interes dentro del área de la UPZ y filtrar
 
    - Guardar resultados: la lista en .CSV o .XLSX, y los polígonos en formato .SHP
 
