@@ -157,7 +157,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
  
 2. Crear capas personalizadas (titulo e.g. BARRIOS_OJD).
 
-   - usando las herramientas provistas en QGIS, crear la capa de polígonos que sea pertinente, incluyendo en esta los correspondientes campos de georreferenciación, debidamente codificados, que posibiliten la integración del recurso con el modelo de datos.
+   - usando las herramientas provistas en QGIS, crear la capa de polígonos que sea pertinente, incluyendo en esta los correspondientes campos de georreferenciación, debidamente codificados, que posibiliten la integración satisfactoria del recurso resultante  con el modelo de datos.
 
 3. Construir tabla cruzada para conectar los datos censales y geoespaciales (titulo e.g. `GEOCONECTOR`):
 
