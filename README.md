@@ -144,11 +144,11 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
 
    - Identificar UPZ
 
-   - Confirmar sectores catastrales dentro del área y hacer lista
-
    - Seleccionar manzanas censales y otros polígonos de interes dentro del área de la UPZ y filtrar
+  
+   - Confirmar sectores catastrales y manzanas censales dentro del área y hacer listas
 
-   - Guardar resultados: la lista en .CSV o .XLSX, y los polígonos en formato .SHP
+   - Guardar resultados: las listas en .CSV o .XLSX, y los polígonos en formato .SHP
 
    - **IMPORTANTE:** 
       - Es imprescindible, al menos en el caso de zonas urbanas, hacer una revisión exhaustiva de la unidad geográfica mínima en común (manzana) para realizar el cruce de fuentes de manera exitosa, ya que puede haber diferencias significativas entre las fuentes disponibles.
