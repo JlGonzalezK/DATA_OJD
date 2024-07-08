@@ -94,7 +94,7 @@ Mi visión a mediano/largo plazo es la construcción de un Sistema de Informaci�
   - Sector catastral
   - Manzana catastral
 
-### IMPORTANTE: es imprescindible estudiar duidadosamente los manuales y diccionarios de datos del CNPV 2018, MGN e IDECA
+### IMPORTANTE: es imprescindible estudiar cuidadosamente los manuales y diccionarios de datos del CNPV 2018, MGN e IDECA
 
 ## Hosting
 - **GitHub:** principalmente para alojar las capas GeoJSON
