@@ -18,7 +18,7 @@ Jorge Luis González–Castellanos**
 
 En este proyecto se consignan los productos del ejercicio de visualización de datos censales con base en mi trabajo de investigación personal con fuentes abiertas de datos, proceso autónomo realizado durante los años 2022 y 2023. 
 
-Los productos aqui publicados se obtuvieron de fuentes abiertas y oficiales (DANE, IDECA-UAECD), y como parte de mi trabajo voluntario con el Observatorio Javeriano de las Desigualdades. 
+Los productos aqui publicados se obtuvieron de fuentes abiertas y oficiales (DANE, IDECA-UAECD), y como parte de mi trabajo voluntario con el Observatorio Javeriano de las Desigualdades (OJD). 
 
 Sobre la última fuente, dadas las condiciones de posibilidad, se toma la decisión de subir esta y todas las cartografías necesarias para el dashboard realizado, mayormente basado en mis trabajos académicos previos.
 
