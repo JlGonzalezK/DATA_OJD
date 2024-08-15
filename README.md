@@ -20,7 +20,7 @@ En este proyecto se consignan los productos del ejercicio de visualización de d
 
 Los productos aqui publicados se obtuvieron de fuentes abiertas y oficiales (DANE, IDECA-UAECD), y como parte de mi trabajo voluntario con el Observatorio Javeriano de las Desigualdades. 
 
-Sobre esta última fuente, esta fue la única forma de subir las cartografías necesarias para el dashboard realizado, mayormente basado en mis trabajos académicos previos.
+Sobre la última fuente, dadas las condiciones de posibilidad, se toma la decisión de subir esta y todas las cartografías necesarias para el dashboard realizado, mayormente basado en mis trabajos académicos previos.
 
 ![Alt text](sources/pics/datamodel.png)
 Figura 1. Ejemplo del modelo de datos del dashboard con variables elementales. Elaboración propia basado en fuentes: DANE, IDECA-UAECD y OJD.
