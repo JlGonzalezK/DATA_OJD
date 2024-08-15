@@ -11,7 +11,7 @@ Jorge Luis González–Castellanos**
 </p></h6>
 
 <h6><p align="center">
-**Participante del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá
+**Participante voluntario del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá
 </p></h6>
 
 ## Sobre este producto 
