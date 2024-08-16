@@ -16,7 +16,7 @@ Jorge Luis González–Castellanos**
 
 ## Sobre este producto 
 
-En este repositorio se consignan los productos del ejercicio de visualización de datos censales con base en mi trabajo de investigación personal con fuentes abiertas de datos, proceso autónomo realizado durante los años 2022 y 2023. 
+En este repositorio se consignan los productos del ejercicio de visualización de datos censales con base en mi trabajo de investigación personal a partir de fuentes abiertas de datos; proceso autónomo realizado durante los años 2022 y 2023. 
 
 Los productos aqui publicados se obtuvieron de fuentes abiertas y oficiales (DANE, IDECA-UAECD), y como parte de mi trabajo voluntario con el Observatorio Javeriano de las Desigualdades (OJD). 
 
