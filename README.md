@@ -23,7 +23,7 @@ Los productos aqui publicados se obtuvieron de fuentes abiertas y oficiales (DAN
 Sobre la última fuente, dadas las condiciones de posibilidad, se toma la decisión de subir aquí esta y todas las cartografías necesarias para el dashboard realizado, mayormente basado en mis trabajos académicos previos.
 
 ![Alt text](sources/pics/datamodel.png)
-Figura 1. Ejemplo del modelo de datos del dashboard con variables elementales. Elaboración propia basado en fuentes: DANE, IDECA-UAECD y OJD.
+Figura 1. Ejemplo del modelo de datos del dashboard con variables elementales. Elaboración propia basado en fuentes: DANE, IDECA-UAECD.
 
 [Pulse aquí para ir al informe preliminar (Dashboard de Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
 
