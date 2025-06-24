@@ -1,4 +1,4 @@
-# Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del DANE, IDECA-UAECD y OJD*
+# Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del DANE, IDECA-UAECD y OJD
 
 <p align="right">
   <strong>Jorge Luis González–Castellanos</strong><br>
