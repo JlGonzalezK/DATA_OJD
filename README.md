@@ -1,13 +1,16 @@
 # Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del DANE, IDECA-UAECD y OJD
 
-<p align="right">
-  <strong>Jorge Luis González–Castellanos</strong><br>
-  <small>Estudiante de sociología – Universidad Nacional de Colombia, Sede Bogotá</small><br>
-   <small>Participante voluntario del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá</small><br>
-  <a href="mailto:jlgonzalezca@unal.edu.co">jlgonzalezca@unal.edu.co</a><br>
-  2024
-</p>
+<div align="right">
 
+**Jorge Luis González–Castellanos**  
+*Estudiante de sociología – Universidad Nacional de Colombia, Sede Bogotá*  
+Participante voluntario del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá
+
+[jlgonzalezca@unal.edu.co](mailto:jlgonzalezca@unal.edu.co)  
+
+2024  
+
+</div>
 
 ## Sobre este producto 
 
