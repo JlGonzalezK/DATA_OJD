@@ -1,18 +1,13 @@
 # Ejercicio de visualización de datos georreferenciados: extracción, cruce y análisis de datos del DANE, IDECA-UAECD y OJD*
 
-<p align="center">
-Jorge Luis González–Castellanos**
+<p align="right">
+  <strong>Jorge Luis González–Castellanos</strong><br>
+  <small>Estudiante de sociología – Universidad Nacional de Colombia, Sede Bogotá</small><br>
+   <small>Participante voluntario del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá</small><br>
+  <a href="mailto:jlgonzalezca@unal.edu.co">jlgonzalezca@unal.edu.co</a><br>
+  2024
+</p>
 
-<h6><p align="center">* Los derechos patrimoniales de este trabajo pertenecen a la Pontificia Universidad Javeriana, Bogotá. El uso de los productos aquí consignados, identificados con las siglas OJD, debe ser realizado bajo estricta autorización de dicha institución.
-</p></h6>
-
-<h6><p align="center">
-**Estudiante de pregrado en sociología. Universidad Nacional de Colombia, Sede Bogotá
-</p></h6>
-
-<h6><p align="center">
-**Participante voluntario del Observatorio Javeriano de las Desigualdades. Pontificia Universidad Javeriana, Bogotá
-</p></h6>
 
 ## Sobre este producto 
 
@@ -25,7 +20,7 @@ Sobre la última fuente, dadas las condiciones de posibilidad, se toma la decisi
 [Pulse aquí para ir al informe preliminar (Dashboard de Power BI)](https://app.powerbi.com/view?r=eyJrIjoiYjJjODVhYjYtOTNlNi00MDQzLTlhY2QtZDI1N2VkZjk3ZjFmIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9&pageName=8e7c7264545ce0d79024&navContentPaneEnabled=false)
 
 
-## Fuentes Oficiales: 
+## Fuentes Oficiales
 
 Departamento Administrativo Nacional de Estadística: www.dane.gov.co
 
