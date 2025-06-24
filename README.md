@@ -25,6 +25,6 @@ Sobre la última fuente, dadas las condiciones de posibilidad, se toma la decisi
 
 ## Fuentes Oficiales
 
-Departamento Administrativo Nacional de Estadística: www.dane.gov.co
+1. Departamento Administrativo Nacional de Estadística: www.dane.gov.co
 
-Catastro Bogotá: https://www.catastrobogota.gov.co/datos-abiertos.
+2. Catastro Bogotá: https://www.catastrobogota.gov.co/datos-abiertos.
